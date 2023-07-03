@@ -1,0 +1,50 @@
+.home-container {
+  background-color: #152850;
+  height: 100vh;
+  padding: 40px;
+}
+.website-logo {
+  height: 50px;
+}
+.logout-button {
+  color: #f8fafc;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #f8fafc;
+  outline: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.home-header-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.digital-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.digital-card {
+  height: 200px;
+}
+.card-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+  .card-heading {
+    font-size: 22px;
+  }
+  .digital-card {
+    height: 180px;
+    width: 240px;
+  }
+}
